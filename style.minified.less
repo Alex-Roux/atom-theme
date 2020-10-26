@@ -1,17 +1,2 @@
-//v1.0
-@displayMMButton: false;@PreTreeView: "";@PostTreeView: " View";.tab-bar .tab.active {backgroundbackground: linear-gradient(135deg, #023788, #650D89, #920075, #F6019D, #D40078);background-size: 300% 300%;animation: rainbow 3s ease;}
-atom-dock .tab-bar .tab.active, .github-StagingView-header {color: white;background: linear-gradient(160deg, #023788, #650D89, #920075);background-size: 100% 100%;animation: none;}
-.atom-windows-titlebar-title-container {background: linear-gradient(5deg, #21252b, #21252b, #21252b, #920075);background-size: 100% 100%;}
-.atom-windows-titlebar-menu-container .menu .submenu
-.submenu-item.has-submenu:after {font-size: inherit;font-family: inherit;content: "";}
-.tab-bar .tab .close-icon {background-color: rgba(0,0,0,0);}
-.tab[data-type=TreeView] .title {text-align: left;}
-.tab[data-type=TreeView] .title:before {content: @PreTreeView;}
-.tab[data-type=TreeView] .title:after {content: @PostTreeView;}
-atom-text-editor {background-color: #16181d;}
-atom-text-editor .wrap-guide{background-color: rgba(15,130,230,0.15);}
-atom-text-editor atom-text-editor-minimap .open-minimap-quick-settings when (@displayMMButton = false) {display: none;}
-.github-Blank-LargeIcon:before {background-image: linear-gradient(135deg, #023788, #650D89, #920075, #F6019D, #D40078);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
-status-bar a,status-bar a:hover,status-bar .cursor-position a,status-bar .cursor-position a:hover,.encoding-status a,.encoding-status a:hover,.grammar-status a,.grammar-status a:hover,.flexbox-repaint-hack,.flexbox-repaint-hack:hover {color: white;}
-.flexbox-repaint-hack {background: linear-gradient(120deg, #023788, #650D89, #920075, #F6019D, #D40078);background-size: 1000% 1000%;animation: rainbow 10s ease infinite;}
-@keyframes rainbow {0%{background-position:0% 82%}50%{background-position:100% 19%}100%{background-position:0% 82%}}
+//v.1.0
+@displayMMButton: false;@PreTreeView: "";@PostTreeView: " View";.tab-bar .tab.active {backgroundbackground: linear-gradient(135deg, #023788, #650D89, #920075, #F6019D, #D40078);background-size: 300% 300%;animation: rainbow 3s ease;}atom-dock .tab-bar .tab.active, .github-StagingView-header {color: white;background: linear-gradient(160deg, #023788, #650D89, #920075);background-size: 100% 100%;animation: none;}.atom-windows-titlebar-title-container {background: linear-gradient(5deg, #21252b, #21252b, #21252b, #920075);background-size: 100% 100%;}.atom-windows-titlebar-menu-container .menu .submenu.submenu-item.has-submenu:after {font-size: inherit;font-family: inherit;content: "";}.tab-bar .tab .close-icon {background-color: rgba(0,0,0,0);}.tab[data-type=TreeView] .title {text-align: left;}.tab[data-type=TreeView] .title:before {content: @PreTreeView;}.tab[data-type=TreeView] .title:after {content: @PostTreeView;}atom-text-editor {background-color: #16181d;}atom-text-editor .wrap-guide{background-color: rgba(15,130,230,0.15);}atom-text-editor atom-text-editor-minimap .open-minimap-quick-settings when (@displayMMButton = false) {display: none;}.github-Blank-LargeIcon:before {background-image: linear-gradient(135deg, #023788, #650D89, #920075, #F6019D, #D40078);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}status-bar a,status-bar a:hover,status-bar .cursor-position a,status-bar .cursor-position a:hover,.encoding-status a,.encoding-status a:hover,.grammar-status a,.grammar-status a:hover,.flexbox-repaint-hack,.flexbox-repaint-hack:hover {color: white;}.flexbox-repaint-hack {background: linear-gradient(120deg, #023788, #650D89, #920075, #F6019D, #D40078);background-size: 1000% 1000%;animation: rainbow 10s ease infinite;}@keyframes rainbow {0%{background-position:0% 82%}50%{background-position:100% 19%}100%{background-position:0% 82%}}
